@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../Images/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    margin: auto auto;
+}
+html{
+    font-size: 62.5%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+h1{
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+.header{
+    height: 80px;  
+}
+
+.navbar{
+    padding: 1rem;
+    max-width: 100%;
+    width: 80%;
+    margin: auto auto;
+    align-items: center;
+}
+
+.header .header-name,
+.header .navbar a{
+    color: white;
+}
+.header .header-name{
+    float: left;
+    font-size: 3.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid orange;
+}
+.header .navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+    background: rgba(0,0,0,0.5);
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid rgb(236, 111, 9);
+}
+.heading{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding-top: 15px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.project_link {
+    font-size: 15px;
+    margin: 25px 50px;
+    a{
+        color: white;
+        font-size: 25px;
+        text-decoration: underline;
+    } 
+}
+img{
+    margin:auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}

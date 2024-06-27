@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playball&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../Images/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    margin: auto auto;
+}
+html{
+    font-size: 62.5%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+h1{
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+.header{
+    height: 80%;
+    
+}
+
+.navbar{
+    padding: 1rem;
+    max-width: 100%;
+    width: 80%;
+    margin: auto auto;
+    align-items: center;
+}
+
+.header .header-name,
+.header .navbar a{
+    color: white;
+}
+.header .header-name{
+    float: left;
+    font-size: 3.5rem;
+    border-bottom: 2px solid orange;
+}
+.header .navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+    background: rgba(0,0,0,0.5);
+}
+.nav-items{
+    float: right;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid rgb(236, 111, 9);
+}
+.pic{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    box-shadow: 5px 5px 15px white;
+}
+span{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 2px solid orange;
+}
+p{
+    color: white;
+    font-size: x-large;
+}
+.intro_card{
+    position: absolute;
+    width: 60%;
+    left: 22.5%;
+    top: 32%;
+}
